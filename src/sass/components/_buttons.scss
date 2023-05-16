@@ -28,18 +28,18 @@
   border-style: solid;
   -moz-border-image: -moz-linear-gradient(
     135deg,
-    #b00202 0%,
-    #dc3545 100%
+    $primary-color 0%,
+    $secondary-color 100%
   );
   -webkit-border-image: -webkit-linear-gradient(
     135deg,
-    #b00202 0%,
-    #dc3545 100%
+    $primary-color 0%,
+    $secondary-color 100%
   );
   border-image: linear-gradient(
     135deg,
-    #b00202 0%,
-    #dc3545 100%
+    $primary-color 0%,
+    $secondary-color 100%
   );
   -webkit-border-image-slice: 1;
   border-image-slice: 1;
@@ -59,8 +59,8 @@
   &::after {
     background-image: linear-gradient(
       135deg,
-      #b00202 0%,
-      #dc3545 100%
+      $primary-color 0%,
+      $secondary-color 100%
     );
 
     @include respond(phone) {

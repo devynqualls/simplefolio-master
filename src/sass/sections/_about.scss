@@ -1,11 +1,16 @@
 #about {
-  background-color: #dc3545;
+  background-color: #fbff00;
   background-image: linear-gradient(
     135deg,
     #b00202 0%,
     #dc3545 100%
   );
-  color: #ffffff;
+  background: url(https://i.pinimg.com/564x/f2/2c/71/f22c7111e5aa1dd2c0ef984f3b9eef46.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.9;
+
+  color: #FFFFFF;
   height: 100%;
   border-top: 0px;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
